@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Czego dotyczy Art. 263. (uchylony) w Kodeksie pracy?",
+    "expected_article": "Art. 263. (uchylony)",
+    "gold_answer": "Artykuł 263 Kodeksu pracy został uchylony i obecnie nie zawiera obowiązujących przepisów."
+  },
+  {
+    "question": "Kim jest pracownik według Kodeksu pracy?",
+    "expected_article": "Art. 115. ...",
+    "gold_answer": "Pracownikiem jest osoba zatrudniona na podstawie umowy o pracę, powołania, wyboru, mianowania lub spółdzielczej umowy o pracę. (Art. 2 Kodeksu pracy)"
+  },
+  {
+    "question": "Kim jest pracownik według Kodeksu pracy?",
+    "expected_article": "Art. 240. ...",
+    "gold_answer": "Pracownikiem jest osoba zatrudniona na podstawie umowy o pracę, powołania, wyboru, mianowania lub spółdzielczej umowy o pracę. (Art. 2 Kodeksu pracy)"
+  },
+  {
+    "question": "Kim jest pracownik według Kodeksu pracy?",
+    "expected_article": "Art. 235. ...",
+    "gold_answer": "Pracownikiem jest osoba zatrudniona na podstawie umowy o pracę, powołania, wyboru, mianowania lub spółdzielczej umowy o pracę. (Art. 2 Kodeksu pracy)"
+  },
+  {
+    "question": "Kim jest pracownik według Kodeksu pracy?",
+    "expected_article": "Art. 631. ...",
+    "gold_answer": "Pracownikiem jest osoba zatrudniona na podstawie umowy o pracę, powołania, wyboru, mianowania lub spółdzielczej umowy o pracę. (Art. 2 Kodeksu pracy)"
+  },
+  {
+    "question": "Czego dotyczy Art. 24121. (uchylony) w Kodeksie pracy?",
+    "expected_article": "Art. 24121. (uchylony)",
+    "gold_answer": "Artykuł 24121 Kodeksu pracy został uchylony i obecnie nie obowiązuje."
+  },
+  {
+    "question": "Kim jest pracownik według Kodeksu pracy?",
+    "expected_article": "Art. 221b. ...",
+    "gold_answer": "Pracownikiem jest osoba zatrudniona na podstawie umowy o pracę, powołania, wyboru, mianowania lub spółdzielczej umowy o pracę. (Art. 2 Kodeksu pracy)"
+  },
+  {
+    "question": "Kim jest pracownik według Kodeksu pracy?",
+    "expected_article": "Art. 24115. ...",
+    "gold_answer": "Pracownikiem jest osoba zatrudniona na podstawie umowy o pracę, powołania, wyboru, mianowania lub spółdzielczej umowy o pracę. (Art. 2 Kodeksu pracy)"
+  },
+  {
+    "question": "Kim jest pracownik według Kodeksu pracy?",
+    "expected_article": "Art. 133. ...",
+    "gold_answer": "Pracownikiem jest osoba zatrudniona na podstawie umowy o pracę, powołania, wyboru, mianowania lub spółdzielczej umowy o pracę. (Art. 2 Kodeksu pracy)"
+  },
+  {
+    "question": "Kim jest pracownik według Kodeksu pracy?",
+    "expected_article": "Art. 108. ...",
+    "gold_answer": "Pracownikiem jest osoba zatrudniona na podstawie umowy o pracę, powołania, wyboru, mianowania lub spółdzielczej umowy o pracę. (Art. 2 Kodeksu pracy)"
+  }
+]

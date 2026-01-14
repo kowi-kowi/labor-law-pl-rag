@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Czego dotyczy Art. 263. (uchylony) w Kodeksie pracy?",
+    "expected_article": "Art. 263. (uchylony)",
+    "gold_answer": ""
+  },
+  {
+    "question": "Kim jest pracownik według Kodeksu pracy?",
+    "expected_article": "Art. 115. Pracownik ponosi odpowiedzialność za szkodę w granicach rzeczywistej straty poniesionej przez praco-",
+    "gold_answer": ""
+  },
+  {
+    "question": "Kim jest pracownik według Kodeksu pracy?",
+    "expected_article": "Art. 240. § 1. Układ określa:",
+    "gold_answer": ""
+  },
+  {
+    "question": "Kim jest pracownik według Kodeksu pracy?",
+    "expected_article": "Art. 235. § 1. Pracodawca jest obowiązany niezwłocznie zgłosić właściwemu państwowemu inspektorowi sanitar-",
+    "gold_answer": ""
+  },
+  {
+    "question": "Kim jest pracownik według Kodeksu pracy?",
+    "expected_article": "Art. 631. § 1. Z dniem śmierci pracownika stosunek pracy wygasa.",
+    "gold_answer": ""
+  },
+  {
+    "question": "Czego dotyczy Art. 24121. (uchylony) w Kodeksie pracy?",
+    "expected_article": "Art. 24121. (uchylony)",
+    "gold_answer": ""
+  },
+  {
+    "question": "Kim jest pracownik według Kodeksu pracy?",
+    "expected_article": "Art. 221b. § 1. Zgoda osoby ubiegającej się o zatrudnienie lub pracownika może stanowić podstawę przetwarzania",
+    "gold_answer": ""
+  },
+  {
+    "question": "Kim jest pracownik według Kodeksu pracy?",
+    "expected_article": "Art. 24115. Prawo wystąpienia z inicjatywą zawarcia układu ponadzakładowego przysługuje:",
+    "gold_answer": ""
+  },
+  {
+    "question": "Kim jest pracownik według Kodeksu pracy?",
+    "expected_article": "Art. 133. § 1. Pracownikowi przysługuje w każdym tygodniu prawo do co najmniej 35 godzin nieprzerwanego odpo-",
+    "gold_answer": ""
+  },
+  {
+    "question": "Kim jest pracownik według Kodeksu pracy?",
+    "expected_article": "Art. 108. § 1. Za nieprzestrzeganie przez pracownika ustalonej organizacji i porządku w procesie pracy, przepisów",
+    "gold_answer": ""
+  }
+]
