@@ -7,8 +7,9 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 
 # ---- FAISS + chunks ----
-chunks = json.load(open("../data/meta.json", "r", encoding="utf-8"))
-index = faiss.read_index("../data/index.faiss")
+path = "../data/" # adjust path as needed
+chunks = json.load(open(path + "meta.json", "r", encoding="utf-8"))
+index = faiss.read_index(path + "index.faiss")
 embedder = SentenceTransformer("sentence-transformers/paraphrase-multilingual-mpnet-base-v2")
 reranker = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
 
