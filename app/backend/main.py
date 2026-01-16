@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from retrieval import retrieve_context, ask_llm
+from retrival import retrieve_context, ask_llm
 
 app = FastAPI(title="Polish Labor Law AI Assistant")
 
