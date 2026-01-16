@@ -3,7 +3,7 @@ import faiss
 import numpy as np
 from sentence_transformers import SentenceTransformer
 from sentence_transformers import CrossEncoder
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 import torch
 
 # ---- FAISS + chunks ----
@@ -38,12 +38,21 @@ def retrieve_context(query, k=5):
 
 # ---- HuggingFace LLM ----
 model_name = "mistralai/Mistral-7B-Instruct-v0.2"
+
+bnb_config = BitsAndBytesConfig(
+    load_in_4bit=True,
+    bnb_4bit_quant_type="nf4",
+    bnb_4bit_compute_dtype=torch.float16,
+    bnb_4bit_use_double_quant=True,
+)
+
 tokenizer = AutoTokenizer.from_pretrained(model_name)
+
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
-    torch_dtype=torch.float16,
     device_map="auto",
-    load_in_4bit=True
+    quantization_config=bnb_config,
+    dtype=torch.float16,
 )
 
 def ask_llm(query, context):
